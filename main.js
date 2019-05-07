@@ -13,7 +13,7 @@ function preload() {
 var platforms;
 var stars;
 var diamond;
-var score = 100;
+var score = 190;
 var scoreText;
 function create() {
 	// place your assets
