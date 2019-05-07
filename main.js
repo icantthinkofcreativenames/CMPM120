@@ -13,7 +13,7 @@ function preload() {
 var platforms;
 var stars;
 var diamond;
-var score = 0;
+var score = 100;
 var scoreText;
 function create() {
 	// place your assets
@@ -133,7 +133,7 @@ function update()
 	//allow the player to jump if they are touching the ground
 		if(cursors.up.isDown && player.body.touching.down && hitPlatform)
 		{
-			player.body.velocity.y = -550;
+			player.body.velocity.y = -350;
 		}
 
 	//check star collision against platform
